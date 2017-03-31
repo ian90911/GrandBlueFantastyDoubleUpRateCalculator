@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!--  Meta  -->
+<meta charset="UTF-8" />
+<title>GrandBlueFantasty High/Low Rate Calculator</title>
+
+<!--  Styles  -->
+<!-- Material Design fonts -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Bootstrap Material Design -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">
+<link rel="stylesheet" href="styles/index.processed.css">
+
+<body>
+    <div id="header" class="page-header">
+        <H1>Double Up High/Low Rate Calculator</H1>
+    </div>
+    <div id="container" class="container">
+        <div id="divBackground" class="row">
+            <div id="ControlPanel" class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><label for="">Game Info</label></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="ControlBody text-center">
+                            <label>Round:</label>
+                            <label id="lblRound" class="Round"></label>
+                        </div>
+                        <div class="ControlBody text-center SystemMessage">
+                            <label id="labelSystemMessage" class="">pick first card</label>
+                        </div>
+                        <div class="ControlBody">
+                            <div id="divHighRate" class="RateInfo">
+                                <div class="label label-danger"><label>High Rate</label></div>
+                                <div><label id="lblHighRate">0%</label></div>
+                            </div>
+                            <div id="divDrawRate" class="RateInfo">
+                                <div class="label label-default"><label>Draw Rate</label></div>
+                                <div><label id="lblDrawRate">0%</label></div>
+                            </div>
+                            <div id="divLowRate" class="RateInfo">
+                                <div class="label label-info"><label>Low Rate</label></div>
+                                <div><label id="lblLowRate">0%</label></div>
+                            </div>
+                        </div>
+                        <div class="ControlBody">
+                            <button class="btn btn-raised btn-default" id="btnReset">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="CardPanel" class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><label for="">Card Pool</label></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div id="CardPool" class="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <pre>
+How to use double up High/Low rate caculator :
+    1.Click the card that system gaved.
+    2.Program will caculate high and low win rate.
+    3.Back to game, click your choise.
+    4.If you win, click next card system showing, and loop 2~4,
+      or if you lose, then end the game.
+    5.If you want go next round then click new round button.
+  </pre>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdn.rawgit.com/HubSpot/tether/v1.3.4/dist/js/tether.min.js"></script>
+    <script src="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.iife.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+﻿html {
+}
+body {
+      padding-top: 50px; 
+}
+
+.CardPoolLine{
+  margin-top:3px;
+  margin-bottom:7px;
+}
+
+.CardPoolCard{
+  border-radius: 5px;
+  display:inline-block;
+  border:1px solid;
+  width:50px;
+  height:75px;
+  margin-right:3px;
+}
+
+.CardPoolCard.selected{
+  background-color:#757575;
+}
+
+.RateInfo{
+  width:30%;
+  display:inline-block;
+}
+ 
+.SystemMessage{
+  border-top:1px solid;
+  border-bottom:1px solid;
+}
+
+.ControlBody{
+  margin-bottom:5px;
+}
+
+.Round{
+  color:red;
+}

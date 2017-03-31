@@ -3,3 +3,12 @@
 ################################################################################
 
 /GrandBlueFantastyDoubleUpRateCalculator/packages
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/packages.config
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/Web.Release.config
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/Web.Debug.config
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/Web.config
+/GrandBlueFantastyDoubleUpRateCalculator/.vs
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/bin
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/obj/Debug
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/Properties
+/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator/GrandBlueFantastyDoubleUpRateCalculator.csproj.user
